@@ -7,3 +7,10 @@ body {
 h1 {
 	text-align: center;
 }
+.navbar-bottom {
+	text-align: center;
+	color: #FFFFFF;
+	bottom: 0;
+	width: 100%;
+	position: fixed;
+}
