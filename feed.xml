@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+		<title> Twijgs (web)log</title>
+		<subtitle>Artikels en andere schrijfsels op mijn website.</subtitle>
+		<id>urn:uuid:7fe7ca23-21f0-4a2a-bd41-337471be8534</id>
+		<link href="twijg76.github.io/feed/" rel="self" />
+		<link href="twijg76.github.io" />
+
+
+		<entry>
+				<title>Test</title>
+		</entry>
