@@ -1,21 +1,14 @@
-<!DOCTYPE html>
-<html lang="nl-be">
-<head>
-		<meta charset="utf-8">
-		<title>
-		Twijg's Log op het web.
-		</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<h1>Index</h1>
-	<p>Welkom. Dit is het begin van mijn website/weblog. Hieronder kunt u links vinden naar recente artikel en andere schrijfsels. Ik kan trouwens niet beloven dat ik u altijd met u ga aanspreken.</p>
-	<p>Haloaoaoaoaoao</p></body>
+---
+layout: default
+title: Blog
+---
+<h1>Latest Posts</h1>
 
-
-
-<div class="navbar-bottom">
-		<a href="index.html" title="Hoofdpagina"> Hoofdpagina</a>
-		<a link href="feed.xml" type="application/atom+xml" rel="alternate" title="Atom feed"> Atom feed</a>
-</div>
-</html>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
